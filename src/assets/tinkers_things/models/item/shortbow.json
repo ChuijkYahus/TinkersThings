@@ -13,15 +13,15 @@
   ],
   "overrides": [
     {
-      "predicate": { "pulling": 1 },
+      "predicate": { "tconstruct:charging": 1 },
       "model": "tinkers_things:item/shortbow/pulling_1"
     },
     {
-      "predicate": { "pulling": 1, "pull": 0.65 },
+      "predicate": { "tconstruct:charging": 1, "tconstruct:charge": 0.65 },
       "model": "tinkers_things:item/shortbow/pulling_2"
     },
     {
-      "predicate": { "pulling": 1, "pull": 1.0 },
+      "predicate": { "tconstruct:charging": 1, "tconstruct:charge": 1.0 },
       "model": "tinkers_things:item/shortbow/pulling_3"
     },
     {
