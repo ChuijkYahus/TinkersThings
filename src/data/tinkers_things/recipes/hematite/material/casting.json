@@ -1,7 +1,7 @@
 {
   "type": "tconstruct:material_fluid",
   "fluid": {
-    "name": "tinkers_things:molten_hematite",
+    "fluid": "tinkers_things:molten_hematite",
     "amount": 200
   },
   "temperature": 1250,

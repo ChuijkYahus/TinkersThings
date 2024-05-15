@@ -3,7 +3,7 @@
   "cast": { "tag": "tconstruct:casts/single_use/gem" },
   "cast_consumed": true,
   "fluid": {
-    "name": "tinkers_things:molten_hematite",
+    "fluid": "tinkers_things:molten_hematite",
     "amount": 100
   },
   "result": "tinkers_things:hematite",

@@ -2,7 +2,7 @@
   "type": "tconstruct:material_fluid",
   "input": "tconstruct:vine",
   "fluid": {
-    "name": "tinkers_things:molten_hematite",
+    "fluid": "tinkers_things:molten_hematite",
     "amount": 100
   },
   "temperature": 1250,
