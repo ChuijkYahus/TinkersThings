@@ -1,3 +1,6 @@
-{
-  "traits": [{ "name": "tinkers_things:stowing", "level": 1 }]
-}
+{ "modules": [
+  {
+    "type": "tconstruct:traits",
+    "traits": [{ "name": "tinkers_things:stowing", "level": 1 }]
+  }
+]}

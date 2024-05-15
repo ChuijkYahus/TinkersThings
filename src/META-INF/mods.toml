@@ -1,10 +1,10 @@
 modLoader="lowcodefml"
-loaderVersion="[40,)"
+loaderVersion="[43,)"
 issueTrackerURL="https://github.com/SlimeKnights/TinkersThings/issues"
 license="MIT"
 [[mods]]
     modId="tinkers_things"
-    version="1.1.0"
+    version="1.2.0"
     displayName="Tinkers' Things"
     description='''
     A fully playable example Thing Pack for Tinkers' Construct. Includes example tools, weapon, and material.
@@ -12,18 +12,18 @@ license="MIT"
 [[dependencies.tinkers_things]]
     modId="forge"
     mandatory=true
-    versionRange="[40.1.40,)"
+    versionRange="[43.3.0,)"
     ordering="NONE"
     side="BOTH"
 [[dependencies.tinkers_things]]
     modId="tconstruct"
     mandatory=true
-    versionRange="[3.7.1.155,)"
+    versionRange="[3.8.2,)"
     ordering="NONE"
     side="BOTH"
 [[dependencies.tinkers_things]]
     modId="jsonthings"
     mandatory=true
-    versionRange="[0.4.2,)"
+    versionRange="[0.7,)"
     ordering="NONE"
     side="BOTH"

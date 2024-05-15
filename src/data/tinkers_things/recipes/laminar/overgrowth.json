@@ -16,5 +16,5 @@
   ],
   "slots": { "defense": 1 },
   "allow_crystal": true,
-  "result": { "name": "tconstruct:overgrowth", "level": 1 }
+  "result": "tconstruct:overgrowth"
 }

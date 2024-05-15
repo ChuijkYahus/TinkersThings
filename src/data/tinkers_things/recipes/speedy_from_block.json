@@ -7,9 +7,6 @@
   "tools": { "item": "tinkers_things:halberd" },
   "slots": { "upgrades": 1 },
   "allow_crystal": false,
-  "result": {
-    "name": "tconstruct:speedy",
-    "level": 1
-  },
-  "max_level": 3
+  "result": "tconstruct:speedy",
+  "level": { "max": 3 }
 }

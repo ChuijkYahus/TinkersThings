@@ -5,7 +5,7 @@
   "needed_per_level": 20,
   "tools": { "item": "tinkers_things:blowpipe" },
   "allow_crystal": true,
-  "result": { "name": "tinkers_things:tracing", "level": 1 },
-  "max_level": 5,
+  "result": "tinkers_things:tracing",
+  "level": { "max": 5 },
   "slots": { "upgrades": 1 }
 }

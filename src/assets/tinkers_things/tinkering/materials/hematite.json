@@ -21,9 +21,9 @@
     "supportedStats": [
       "tconstruct:head",
       "tconstruct:handle",
-      "tconstruct:extra",
+      "tconstruct:binding",
       "tconstruct:repair_kit",
-      "tconstruct:plate"
+      "tconstruct:armor_plating"
     ],
     "ignoreMaterialStats": false
   }

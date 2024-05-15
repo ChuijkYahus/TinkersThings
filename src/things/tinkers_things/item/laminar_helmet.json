@@ -1,11 +1,36 @@
 {
-  "type": "tconstruct:flat_embellished_armor",
-  "texture_name": "tinkers_things:laminar",
-  "default_material": "tconstruct:slimesteel",
-  "dyeable": true,
+  "type": "tconstruct:multilayer_armor",
   "slot": "helmet",
   "equip_sound": "item.armor.equip_generic",
-  "stat_provider": "tconstruct:no_parts",
   "group": "tinkers_things:tinkers_things",
-  "color_handler": "tconstruct:tool"
+  "color_handler": "tconstruct:tool",
+  "texture_layers": [
+    {
+      "type": "tconstruct:first",
+      "options": [
+        {
+          "type": "tconstruct:fixed",
+          "name": "tinkers_things:laminar/",
+          "suffix": "_tconstruct_gold",
+          "modifier": "tconstruct:golden"
+        },
+        {
+          "type": "tconstruct:persistent_data",
+          "name": "tinkers_things:laminar",
+          "material_key": "tconstruct:embellishment"
+        },
+        {
+          "type": "tconstruct:fixed",
+          "name": "tinkers_things:laminar/",
+          "suffix": "_tconstruct_slimesteel"
+        }
+      ]
+    },
+    {
+      "type": "tconstruct:dyed",
+      "name": "tinkers_things:laminar/overlay_",
+      "modifier": "tconstruct:dyed",
+      "always_render": true
+    }
+  ]
 }

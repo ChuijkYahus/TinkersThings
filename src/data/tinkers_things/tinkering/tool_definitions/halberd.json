@@ -1,28 +1,53 @@
-{
-  "parts": [
-    { "item": "tconstruct:broad_axe_head", "weight": 2 },
-    { "item": "tconstruct:tough_handle" },
-    { "item": "tconstruct:small_blade" },
-    { "item": "tconstruct:tough_handle" }
-  ],
-  "stats": {
-    "base": {
+{ "modules": [
+  {
+    "type": "tconstruct:part_stats",
+    "parts": [
+      { "item": "tconstruct:broad_axe_head", "scale": 0.75 },
+      { "item": "tconstruct:tough_handle",   "scale": 0.5  },
+      { "item": "tconstruct:small_blade",    "scale": 0.25 },
+      { "item": "tconstruct:tough_handle",   "scale": 0.5  }
+    ]
+  },
+  {
+    "type": "tconstruct:default_materials",
+    "materials": [
+      { "type": "tconstruct:random", "tier": 1 },
+      { "type": "tconstruct:random", "tier": 1 },
+      { "type": "tconstruct:random", "tier": 1 },
+      { "type": "tconstruct:random", "tier": 1 }
+    ]
+  },
+  {
+    "type": "tconstruct:base_stats",
+    "stats": {
       "tconstruct:attack_damage": 5.0,
       "tconstruct:attack_speed": 0.8
-    },
+    }
+  },
+  {
+    "type": "tconstruct:multiply_stats",
     "multipliers": {
       "tconstruct:attack_damage": 1.25,
       "tconstruct:durability": 2.25
     }
   },
-  "slots": {
-    "upgrades": 2,
-    "abilities": 1
+  {
+    "type": "tconstruct:modifier_slots",
+    "slots": {
+      "upgrades": 2,
+      "abilities": 1
+    }
   },
-  "traits": [{ "name": "tinkers_things:range", "level": 1 }],
-  "actions": [ "shield_disable" ],
-  "attack": {
-    "type": "tconstruct:particle",
+  {
+    "type": "tconstruct:traits",
+    "traits": [{ "name": "tinkers_things:range", "level": 1 }]
+  },
+  {
+    "type": "tconstruct:tool_actions",
+    "tool_actions": [ "shield_disable" ]
+  },
+  {
+    "type": "tconstruct:melee_particle",
     "particle": "tconstruct:axe_attack"
   }
-}
+]}

@@ -1,6 +1,7 @@
-{
-  "stats": {
-    "base": {
+{ "modules": [
+  {
+    "type": "tconstruct:base_stats",
+    "stats": {
       "tconstruct:durability": 140,
       "tconstruct:velocity": 0.5,
       "tconstruct:draw_speed": 2.0,
@@ -8,8 +9,16 @@
       "tconstruct:projectile_damage": 1.5
     }
   },
-  "slots": {
-    "upgrades": 5,
-    "abilities": 1
+  {
+    "type": "tconstruct:modifier_slots",
+    "slots": {
+      "upgrades": 5,
+      "abilities": 1
+    }
+  },
+  {
+    "type": "tconstruct:material_repair",
+    "material": "tconstruct:bamboo",
+    "stat_type": "tconstruct:limb"
   }
-}
+]}

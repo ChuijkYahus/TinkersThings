@@ -5,8 +5,8 @@
   ],
   "tools": { "item": "tinkers_things:chisel" },
   "allow_crystal": true,
-  "result": { "name": "tconstruct:enhanced", "level": 1 },
-  "max_level": 1,
+  "result": "tconstruct:enhanced",
+  "level": { "max": 1 },
   "requirements": {
     "name": "tinkers_things:fortified",
     "level": 1,

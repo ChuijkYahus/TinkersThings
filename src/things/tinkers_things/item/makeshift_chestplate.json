@@ -1,10 +1,30 @@
 {
-  "type": "tconstruct:layered_embellished_armor",
-  "texture_name": "tinkers_things:makeshift",
-  "dyeable": false,
+  "type": "tconstruct:multilayer_armor",
   "slot": "chestplate",
   "equip_sound": "item.armor.equip_generic",
-  "stat_provider": "tconstruct:no_parts",
   "group": "tinkers_things:tinkers_things",
-  "color_handler": "tconstruct:tool"
+  "color_handler": "tconstruct:tool",
+  "texture_layers": [
+    {
+      "type": "tconstruct:first",
+      "options": [
+        {
+          "type": "tconstruct:fixed",
+          "name": "tinkers_things:makeshift/",
+          "suffix": "_tconstruct_gold",
+          "modifier": "tconstruct:golden"
+        },
+        {
+          "type": "tconstruct:persistent_data",
+          "name": "tinkers_things:makeshift",
+          "material_key": "tconstruct:embellishment"
+        },
+        {
+          "type": "tconstruct:fixed",
+          "name": "tinkers_things:makeshift/",
+          "suffix": "_base"
+        }
+      ]
+    }
+  ]
 }

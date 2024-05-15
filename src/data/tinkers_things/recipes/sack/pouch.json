@@ -7,5 +7,5 @@
   "tools": { "item": "tinkers_things:sack" },
   "slots": { "upgrades": 1 },
   "allow_crystal": true,
-  "result": { "name": "tinkers_things:pouch", "level": 1 }
+  "result": "tinkers_things:pouch"
 }

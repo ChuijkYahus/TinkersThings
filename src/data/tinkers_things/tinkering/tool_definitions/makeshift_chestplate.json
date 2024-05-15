@@ -1,15 +1,21 @@
-{
-  "stats": {
-    "base": {
+{ "modules": [
+  {
+    "type": "tconstruct:base_stats",
+    "stats": {
       "tconstruct:durability": 60,
       "tconstruct:armor": 3.0
-    },
-    "multipliers": {
-      "tconstruct:attack_damage": 0.4
     }
   },
-  "slots": {
-    "upgrades": 2,
-    "defense": 1
+  {
+    "type": "tconstruct:modifier_slots",
+    "slots": {
+      "upgrades": 2,
+      "defense": 1
+    }
+  },
+  {
+    "type": "tconstruct:material_repair",
+    "durability": 60,
+    "material": "tconstruct:wood"
   }
-}
+]}

@@ -10,5 +10,5 @@
   "tools": { "item": "tinkers_things:sack" },
   "slots": { "abilities": 1 },
   "allow_crystal": true,
-  "result": { "name": "tinkers_things:stowing", "level": 1 }
+  "result": "tinkers_things:stowing"
 }
