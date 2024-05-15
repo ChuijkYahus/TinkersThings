@@ -25,24 +25,20 @@
     }
   },
   "textures": {
-    "tool":       "tinkers_things:item/tool/laminar_armor/shield",
-    "large_tool": "tinkers_things:item/tool/laminar_armor/shield_large"
+    "tool":       "tinkers_things:item/tool/laminar_armor/shield_broken",
+    "large_tool": "tinkers_things:item/tool/laminar_armor/shield_large_broken"
   },
   "modifier_roots": {
-    "small": [ "tinkers_things:item/tool/laminar_armor/shield_modifiers/" ],
-    "large": [ "tinkers_things:item/tool/laminar_armor/shield_large_modifiers/" ]
+    "small": [
+      "tinkers_things:item/tool/laminar_armor/shield_modifiers/broken/",
+      "tinkers_things:item/tool/laminar_armor/shield_modifiers/"
+    ],
+    "large": [
+      "tinkers_things:item/tool/laminar_armor/shield_large_modifiers/broken/",
+      "tinkers_things:item/tool/laminar_armor/shield_large_modifiers/"
+    ]
   },
   "large": true,
   "large_offset": [-8, 0],
-  "first_modifiers": [ "tconstruct:dyed", "tconstruct:embellishment" ],
-  "overrides": [
-    {
-      "predicate": { "tconstruct:charging": 2 },
-      "model": "tinkers_things:item/laminar/shield_blocking"
-    },
-    {
-      "predicate": { "tconstruct:broken": 1 },
-      "model": "tinkers_things:item/laminar/shield_broken"
-    }
-  ]
+  "first_modifiers": [ "tconstruct:dyed", "tconstruct:embellishment" ]
 }

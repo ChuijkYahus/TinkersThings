@@ -2,14 +2,14 @@
   "loader": "tconstruct:tool",
   "parent": "forge:item/default-tool",
   "textures": {
-    "blade":  "tinkers_things:item/tool/halberd/blade",
+    "blade":  "tinkers_things:item/tool/halberd/blade_broken",
     "handle": "tinkers_things:item/tool/halberd/handle",
-    "spike":  "tinkers_things:item/tool/halberd/spike",
+    "spike":  "tinkers_things:item/tool/halberd/spike_broken",
     "grip":   "tinkers_things:item/tool/halberd/grip",
     
-    "large_blade":  "tinkers_things:item/tool/halberd/large/blade",
+    "large_blade":  "tinkers_things:item/tool/halberd/large/blade_broken",
     "large_handle": "tinkers_things:item/tool/halberd/large/handle",
-    "large_spike":  "tinkers_things:item/tool/halberd/large/spike",
+    "large_spike":  "tinkers_things:item/tool/halberd/large/spike_broken",
     "large_grip":   "tinkers_things:item/tool/halberd/large/grip"
   },
   "large": true,
@@ -19,15 +19,5 @@
     { "name": "blade",  "index": 0 },
     { "name": "handle", "index": 1 },
     { "name": "grip",   "index": 3 }
-  ],
-  "overrides": [
-    {
-      "predicate": { "tconstruct:charging": 2 },
-      "model": "tinkers_things:item/halberd/blocking"
-    },
-    {
-      "predicate": { "tconstruct:broken": 1 },
-      "model": "tinkers_things:item/halberd/broken"
-    }
   ]
 }

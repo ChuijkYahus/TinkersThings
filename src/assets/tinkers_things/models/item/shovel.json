@@ -2,16 +2,21 @@
   "loader": "tconstruct:tool",
   "parent": "forge:item/default-tool",
   "textures": {
-    "head":        "tinkers_things:item/tool/shovel/head",
-    "broken_head": "tinkers_things:item/tool/shovel/broken_head",
-    "handle":      "tinkers_things:item/tool/shovel/handle"
+    "head":   "tinkers_things:item/tool/shovel/head",
+    "handle": "tinkers_things:item/tool/shovel/handle"
   },
   "parts": [
     { "name": "handle", "index": 1 },
-    { "name": "head",   "index": 0, "broken": "broken_head" }
+    { "name": "head",   "index": 0 }
   ],
-  "overrides": [{
-    "predicate": { "tconstruct:charging": 2 },
-    "model": "tinkers_things:item/blocking/shovel"
-  }]
+  "overrides": [
+    {
+      "predicate": { "tconstruct:charging": 2 },
+      "model": "tinkers_things:item/shovel/blocking"
+    },
+    {
+      "predicate": { "tconstruct:broken": 1 },
+      "model": "tinkers_things:item/shovel/broken"
+    }
+  ]
 }
