@@ -1,44 +1,27 @@
 {
   "loader": "tconstruct:tool",
-  "parent": "forge:item/default",
-  "gui_light": "front",
-  "display": {
-    "thirdperson_righthand": {
-      "rotation": [ 0, 90, 0 ],
-      "translation": [ 2.6, -2, 4 ],
-      "scale": [ 1, 1, 1 ]
-    },
-    "thirdperson_lefthand": {
-      "rotation": [ 0, -90, 0 ],
-      "translation": [ 2.6, -6, 4 ],
-      "scale": [ 1, 1, 1 ]
-    },
-    "firstperson_righthand": {
-      "rotation": [ 0, 0, -5 ],
-      "translation": [ 0, -7, -0.8 ],
-      "scale": [ 1, 1, 1 ]
-    },
-    "firstperson_lefthand": {
-      "rotation": [ 0, 0, -5 ],
-      "translation": [ 0, -7, -0.8 ],
-      "scale": [ 1, 1, 1 ]
-    }
-  },
+  "parent": "tinkers_things:item/laminar/shield_display",
   "textures": {
-    "tool":       "tinkers_things:item/tool/laminar_armor/shield_broken",
-    "large_tool": "tinkers_things:item/tool/laminar_armor/shield_large_broken"
+    "shield":        "tinkers_things:item/tool/laminar_armor/shield/small_broken",
+    "overlay":       "tinkers_things:item/tool/laminar_armor/shield/small_overlay",
+    "large_shield":  "tinkers_things:item/tool/laminar_armor/shield/large_broken",
+    "large_overlay": "tinkers_things:item/tool/laminar_armor/shield/large_overlay"
   },
+  "parts": [
+    { "name": "shield",  "index": 1 },
+    { "name": "overlay", "index": 0 }
+  ],
   "modifier_roots": {
     "small": [
-      "tinkers_things:item/tool/laminar_armor/shield_modifiers/broken/",
-      "tinkers_things:item/tool/laminar_armor/shield_modifiers/"
+      "tinkers_things:item/tool/laminar_armor/shield/small_modifiers/broken/",
+      "tinkers_things:item/tool/laminar_armor/shield/small_modifiers/"
     ],
     "large": [
-      "tinkers_things:item/tool/laminar_armor/shield_large_modifiers/broken/",
-      "tinkers_things:item/tool/laminar_armor/shield_large_modifiers/"
+      "tinkers_things:item/tool/laminar_armor/shield/large_modifiers/broken/",
+      "tinkers_things:item/tool/laminar_armor/shield/large_modifiers/"
     ]
   },
   "large": true,
   "large_offset": [-8, 0],
-  "first_modifiers": [ "tconstruct:dyed", "tconstruct:embellishment" ]
+  "first_modifiers": [ "tconstruct:dyed" ]
 }

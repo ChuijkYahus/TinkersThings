@@ -1,15 +1,9 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "mcm",
-    "ccc",
-    " c "
-  ],
-  "key": {
-    "m": { "tag": "forge:ingots/slimesteel" },
-    "c": { "tag": "tconstruct:slimy_planks" }
+  "type": "tconstruct:table_tool_casting",
+  "cast": {
+    "type": "tconstruct:material",
+    "item": "tinkers_things:shield_plating"
   },
-  "result": {
-    "item": "tinkers_things:laminar_shield"
-  }
+  "item_cost": 3,
+  "result": "tinkers_things:laminar_shield"
 }
