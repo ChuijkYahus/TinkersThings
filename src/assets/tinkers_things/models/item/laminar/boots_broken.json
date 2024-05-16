@@ -2,10 +2,17 @@
   "loader": "tconstruct:tool",
   "parent": "forge:item/default",
   "textures": {
-    "tool": "tinkers_things:item/tool/laminar_armor/boots_broken"
+    "upper": "tinkers_things:item/tool/laminar_armor/boots/upper_broken",
+    "lower": "tinkers_things:item/tool/laminar_armor/boots/lower_broken",
+    "wood":  "tinkers_things:item/tool/laminar_armor/boots/wood_broken"
   },
-  "modifier_roots": [
-    "tinkers_things:item/tool/laminar_armor/boot_modifiers/broken/", "tinkers_things:item/tool/laminar_armor/boot_modifiers/" 
+  "parts": [
+    { "name": "lower", "index": 1 },
+    { "name": "upper", "index": 0 },
+    { "name": "wood",  "index": 2 }
   ],
-  "first_modifiers": [ "tconstruct:dyed", "tconstruct:embellishment", "tconstruct:golden" ]
+  "modifier_roots": [
+    "tinkers_things:item/tool/laminar_armor/boots/modifiers/broken/",
+    "tinkers_things:item/tool/laminar_armor/boots/modifiers/" 
+  ]
 }

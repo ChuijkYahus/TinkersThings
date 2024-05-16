@@ -73,11 +73,13 @@
   "item.tinkers_things.makeshift_helmet":     "Makeshift Helmet",
   "item.tinkers_things.makeshift_chestplate": "Makeshift Chestplate",
   
+  "gui.tinkers_things.laminar_armor": "Laminar Armor",
   "item.tinkers_things.laminar_helmet":     "Laminar Helmet",
   "item.tinkers_things.laminar_chestplate": "Laminar Chestplate",
   "item.tinkers_things.laminar_leggings":   "Laminar Leggings",
   "item.tinkers_things.laminar_boots":      "Laminar Boots",
   "item.tinkers_things.laminar_shield":     "Laminar Shield",
+  "gui.tinkers_things.laminar_armor.description": "Laminar is a highly modifiable armor built from a solid core. While its magical defense may be limited, it makes up for it in raw armor and ability potential.",
 
   "material.tinkers_things.hematite": "Hematite",
   "material.tinkers_things.hematite.flavor": "Bloodstone, thought a myth by many and feared by more",

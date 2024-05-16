@@ -1,14 +1,8 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "c c",
-    "m m"
+  "type": "tconstruct:tool_building",
+  "extra_requirements": [
+    { "item": "minecraft:leather" },
+    { "item": "minecraft:leather" }
   ],
-  "key": {
-    "m": { "tag": "forge:ingots/slimesteel" },
-    "c": { "tag": "minecraft:wool" }
-  },
-  "result": {
-    "item": "tinkers_things:laminar_boots"
-  }
+  "result": "tinkers_things:laminar_boots"
 }

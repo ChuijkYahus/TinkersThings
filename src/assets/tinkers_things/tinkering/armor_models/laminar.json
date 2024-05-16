@@ -1,31 +1,19 @@
 {
   "layers": [
     {
-      "type": "tconstruct:first_present",
-      "options": [
-        {
-          "type": "tconstruct:fixed",
-          "prefix": "tinkers_things:laminar/",
-          "suffix": "_tconstruct_gold",
-          "modifier": "tconstruct:golden"
-        },
-        {
-          "type": "tconstruct:persistent_data",
-          "prefix": "tinkers_things:laminar/",
-          "material_key": "tconstruct:embellishment"
-        },
-        {
-          "type": "tconstruct:fixed",
-          "prefix": "tinkers_things:laminar/",
-          "suffix": "_tconstruct_slimesteel"
-        }
-      ]
+      "type": "tconstruct:material",
+      "index": 1,
+      "prefix": "tinkers_things:laminar/lower_"
     },
     {
-      "type": "tconstruct:dyed",
-      "prefix": "tinkers_things:laminar/overlay_",
-      "modifier": "tconstruct:dyed",
-      "default_color": "FFFFFF"
+      "type": "tconstruct:material",
+      "index": 0,
+      "prefix": "tinkers_things:laminar/upper_"
+    },
+    {
+      "type": "tconstruct:material",
+      "index": 2,
+      "prefix": "tinkers_things:laminar/wood_"
     }
   ]
 }

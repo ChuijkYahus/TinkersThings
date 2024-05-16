@@ -2,10 +2,16 @@
   "loader": "tconstruct:tool",
   "parent": "forge:item/default",
   "textures": {
-    "tool": "tinkers_things:item/tool/laminar_armor/helmet"
+    "upper": "tinkers_things:item/tool/laminar_armor/helmet/upper",
+    "lower": "tinkers_things:item/tool/laminar_armor/helmet/lower",
+    "wood":  "tinkers_things:item/tool/laminar_armor/helmet/wood"
   },
-  "modifier_roots": [ "tinkers_things:item/tool/laminar_armor/helmet_modifiers/" ],
-  "first_modifiers": [ "tconstruct:dyed", "tconstruct:embellishment", "tconstruct:golden" ],
+  "parts": [
+    { "name": "lower", "index": 1 },
+    { "name": "upper", "index": 0 },
+    { "name": "wood",  "index": 2 }
+  ],
+  "modifier_roots": [ "tinkers_things:item/tool/laminar_armor/helmet/modifiers/" ],
   "overrides": [
     {
       "predicate": { "tconstruct:broken": 1 },
