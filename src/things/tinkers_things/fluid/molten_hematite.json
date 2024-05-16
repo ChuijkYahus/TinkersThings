@@ -1,6 +1,7 @@
 {
   "type": "flowing",
   "bucket": {
+    "max_stack_size": 1,
     "group": "tinkers_things:tinkers_things"
   },
   "block": true,
