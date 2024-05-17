@@ -69,6 +69,7 @@
     { "path": "tinkers_things:tinker_armor/laminar/lower_leggings", "stat_type": "tconstruct:armor_plating" },
     { "path": "tinkers_things:tinker_armor/laminar/wood_armor",     "stat_type": "tconstruct:shield_core" },
     { "path": "tinkers_things:tinker_armor/laminar/wood_leggings",  "stat_type": "tconstruct:shield_core" },
+    { "path": "tinkers_things:tinker_armor/laminar/wood_wings",     "stat_type": "tconstruct:shield_core" },
     
     { "path": "tinkers_things:item/tool/laminar_armor/shield/small",         "stat_type": "tconstruct:plating_shield" },
     { "path": "tinkers_things:item/tool/laminar_armor/shield/small_broken",  "stat_type": "tconstruct:plating_shield" },
