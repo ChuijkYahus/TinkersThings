@@ -89,6 +89,7 @@
   "material.tinkers_things.hematite": "Hematite",
   "material.tinkers_things.hematite.flavor": "Bloodstone, thought a myth by many and feared by more",
   "material.tinkers_things.hematite.encyclopedia": "Grants two additional upgrade slots, at the cost of -3 undead damage and -6 mining speed against ores, logs, and dirt",
+  "material.tinkers_things.hematite.armor": "Grants two additional defense slots slots, at the cost of -5% protection against all sources",
 
   "material.tinkers_things.veinline": "Veinline",
   "material.tinkers_things.veinline.flavor": "The blood continues to flow",
@@ -102,5 +103,16 @@
   "modifier.tinkers_things.hemodynamic.mining_speed": "Hemodynamic Speed",
   "modifier.tinkers_things.hemophobic": "Hemophobic",
   "modifier.tinkers_things.hemophobic.flavor": "Fear of the red liquid",
-  "modifier.tinkers_things.hemophobic.description": "Tool gains an additional defense slot"
+  "modifier.tinkers_things.hemophobic.description": "Tool gains an additional defense slot",
+  "modifier.tinkers_things.hemosistance": "Hemosistance",
+  "modifier.tinkers_things.hemosistance.flavor": "The blood moves",
+  "modifier.tinkers_things.hemosistance.description": "Tool gains two additional defense slots, but at what cost?",
+  "modifier.tinkers_things.hemosistance.resistance": "Resistance",
+  
+  "material.tinkers_things.silky_cloth": "Silky Cloth",
+  "material.tinkers_things.silky_cloth.flavor": "So soft on your skin!",
+  "material.tinkers_things.silky_cloth.armor": "Grants an additional ability slot at the cost of 3 max health",
+  "modifier.tinkers_things.silkitoxin": "Silkitoxin",
+  "modifier.tinkers_things.silkitoxin.flavor": "Strength draining",
+  "modifier.tinkers_things.silkitoxin.description": "Tool gains an additional ability slots, but at what cost?"
 }
