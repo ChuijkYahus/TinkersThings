@@ -73,10 +73,10 @@
     
     { "path": "tinkers_things:item/tool/laminar_armor/shield/small",         "stat_type": "tconstruct:plating_shield" },
     { "path": "tinkers_things:item/tool/laminar_armor/shield/small_broken",  "stat_type": "tconstruct:plating_shield" },
-    { "path": "tinkers_things:item/tool/laminar_armor/shield/small_overlay", "stat_type": "tconstruct:maille" },
+    { "path": "tinkers_things:item/tool/laminar_armor/shield/small_overlay", "stat_type": "tconstruct:plating_shield" },
     { "path": "tinkers_things:item/tool/laminar_armor/shield/large",         "stat_type": "tconstruct:plating_shield" },
     { "path": "tinkers_things:item/tool/laminar_armor/shield/large_broken",  "stat_type": "tconstruct:plating_shield" },
-    { "path": "tinkers_things:item/tool/laminar_armor/shield/large_overlay", "stat_type": "tconstruct:maille" },
+    { "path": "tinkers_things:item/tool/laminar_armor/shield/large_overlay", "stat_type": "tconstruct:plating_shield" },
 
     { "path": "tinkers_things:item/tool/makeshift_armor/chestplate_modifiers/tconstruct_embellishment",        "stat_type": "tconstruct:wood" },
     { "path": "tinkers_things:item/tool/makeshift_armor/chestplate_modifiers/broken/tconstruct_embellishment", "stat_type": "tconstruct:wood" },
