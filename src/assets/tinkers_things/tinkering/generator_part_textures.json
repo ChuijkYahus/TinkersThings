@@ -12,14 +12,14 @@
     { "path": "tinkers_things:item/tool/halberd/spike",        "stat_type": "tconstruct:head" },
     { "path": "tinkers_things:item/tool/halberd/spike_broken", "stat_type": "tconstruct:head" },
     { "path": "tinkers_things:item/tool/halberd/handle",       "stat_type": "tconstruct:handle" },
-    { "path": "tinkers_things:item/tool/halberd/grip",         "stat_type": "tconstruct:extra" },
+    { "path": "tinkers_things:item/tool/halberd/grip",         "stat_type": "tconstruct:binding" },
     
     { "path": "tinkers_things:item/tool/halberd/large/blade",        "stat_type": "tconstruct:head" },
     { "path": "tinkers_things:item/tool/halberd/large/blade_broken", "stat_type": "tconstruct:head" },
     { "path": "tinkers_things:item/tool/halberd/large/spike",        "stat_type": "tconstruct:head" },
     { "path": "tinkers_things:item/tool/halberd/large/spike_broken", "stat_type": "tconstruct:head" },
     { "path": "tinkers_things:item/tool/halberd/large/handle",       "stat_type": "tconstruct:handle" },
-    { "path": "tinkers_things:item/tool/halberd/large/grip",         "stat_type": "tconstruct:extra" },
+    { "path": "tinkers_things:item/tool/halberd/large/grip",         "stat_type": "tconstruct:binding" },
     
     { "path": "tinkers_things:item/tool/shortbow/bowstring",        "stat_type": "tconstruct:bowstring" },
     { "path": "tinkers_things:item/tool/shortbow/bowstring_1",      "stat_type": "tconstruct:bowstring" },
