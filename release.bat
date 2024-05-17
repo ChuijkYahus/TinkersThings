@@ -10,6 +10,7 @@ XCOPY generated\assets build\assets /s /i /q
 
 REM Zipping contents
 cd build
+REM TODO: locate version number from mods.toml
 jar --create --file ../Tinker-Things-#.#.#.jar *
 cd ..
 
