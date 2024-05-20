@@ -1,4 +1,5 @@
 {
+  "tinkers_things:enhanced":  "tinkers_things:item/tool/chisel/modifiers/tinkers_things_enhanced",
   "tinkers_things:fortified": "tinkers_things:item/tool/chisel/modifiers/tinkers_things_fortified",
   
   "tinkers_things:blinding": "tinkers_things:gui/modifiers/blinding",

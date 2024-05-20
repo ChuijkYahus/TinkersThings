@@ -1,6 +1,7 @@
 {
   "modifier.tinkers_things": {
     "fortified": "#E77C56",
+    "enhanced":  "#F7CDBB",
     "range":     "#DDDDDD",
     
     "blinding": "#506B68",

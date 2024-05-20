@@ -31,6 +31,9 @@
   "modifier.tinkers_things.fortified": "Fortified",
   "modifier.tinkers_things.fortified.flavor": "Tough as Copper",
   "modifier.tinkers_things.fortified.description": "Tool has boosted stats, mining level, and can be repaired with copper",
+  "modifier.tinkers_things.enhanced": "Enhanced",
+  "modifier.tinkers_things.enhanced.flavor": "Shiny!",
+  "modifier.tinkers_things.enhanced.description": "Restores the upgrade slot lost due to fortified.",
   "modifier.tinkers_things.enhanced.requirements": "Enhanced requires fortified to be applied first",
   
   
