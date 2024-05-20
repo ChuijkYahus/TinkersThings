@@ -4,7 +4,11 @@
     "max_stack_size": 1,
     "group": "tinkers_things:tinkers_things"
   },
-  "block": true,
+  "block": {
+    "type": "tconstruct:burning_liquid",
+    "burn_time": 10,
+    "damage": 8
+  },
   "fluid_type": {
     "parent": "",
     "still_texture": "tconstruct:fluid/molten/still",
@@ -16,10 +20,10 @@
     "viscosity": 10000,
     "gaseous": false,
 
-    "motion_scale": 1.0,
-    "fall_distance_modifier": 1.0,
+    "motion_scale": 0.0023333,
+    "fall_distance_modifier": 0.5,
     
-    "can_push_entity": false,
+    "can_push_entity": true,
     "can_swim": false,
     "can_drown": false,
     "can_extinguish": false,
