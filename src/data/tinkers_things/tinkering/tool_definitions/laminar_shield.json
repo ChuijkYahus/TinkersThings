@@ -1,15 +1,9 @@
 { "modules": [
   {
-    "type": "tconstruct:material_stats",
-    "stat_types": [
-      { "stat": "tconstruct:plating_shield", "scale": 0.5 },
-      { "stat": "tconstruct:plating_shield", "scale": 0.5 }
-    ]
-  },
-  {
-    "type": "tconstruct:tool_parts",
+    "type": "tconstruct:part_stats",
     "parts": [
-      "tinkers_things:shield_plating"
+      { "item": "tinkers_things:shield_plating", "scale": 0.5 },
+      { "item": "tinkers_things:shield_plating", "scale": 0.5 }
     ]
   },
   {
