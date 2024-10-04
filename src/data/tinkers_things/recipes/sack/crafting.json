@@ -2,12 +2,13 @@
   "type": "minecraft:crafting_shaped",
   "pattern": [
     "sCs",
-    "C C",
+    "CIC",
     "CCC"
   ],
   "key": {
     "s": { "tag": "forge:string" },
-    "C": { "item": "tconstruct:silky_cloth" }
+    "C": { "item": "tconstruct:silky_cloth" },
+    "I": { "tag": "forge:nuggets/iron" }
   },
   "result": {
     "item": "tinkers_things:sack"
