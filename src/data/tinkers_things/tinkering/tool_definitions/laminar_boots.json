@@ -5,7 +5,8 @@
       { "item": "tconstruct:boots_plating", "scale": 0.5 },
       { "item": "tconstruct:boots_plating", "scale": 0.5 },
       "tconstruct:shield_core"
-    ]
+    ],
+    "primary_part": 0
   },
   {
     "type": "tconstruct:default_materials",

@@ -5,7 +5,8 @@
       "tconstruct:bow_limb",
       "tconstruct:bow_limb",
       "tconstruct:bowstring"
-    ]
+    ],
+    "primary_part": 0
   },
   {
     "type": "tconstruct:default_materials",

@@ -4,7 +4,8 @@
     "parts": [
       { "item": "tinkers_things:shield_plating", "scale": 0.5 },
       { "item": "tinkers_things:shield_plating", "scale": 0.5 }
-    ]
+    ],
+    "primary_part": 1
   },
   {
     "type": "tconstruct:default_materials",

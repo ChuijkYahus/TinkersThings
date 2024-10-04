@@ -20,5 +20,10 @@
     "type": "tconstruct:material_repair",
     "material": "tconstruct:bamboo",
     "stat_type": "tconstruct:limb"
+  },
+  {
+    "type": "tconstruct:traits",
+    "hooks": [ "tconstruct:rebalanced_trait" ],
+    "traits": [{ "name": "tconstruct:unburdened", "level": 2 }]
   }
 ]}

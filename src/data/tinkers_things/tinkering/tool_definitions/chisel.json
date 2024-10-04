@@ -33,6 +33,11 @@
     "traits": [{ "name": "tconstruct:exchanging", "level": 1 }]
   },
   {
+    "type": "tconstruct:traits",
+    "hooks": [ "tconstruct:rebalanced_trait" ],
+    "traits": [{ "name": "tconstruct:crumbling", "level": 2 }]
+  },
+  {
     "type": "tconstruct:tool_actions",
     "tool_actions": [ "pickaxe_dig" ]
   },

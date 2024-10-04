@@ -17,5 +17,10 @@
     "type": "tconstruct:material_repair",
     "durability": 45,
     "material": "tconstruct:wood"
+  },
+  {
+    "type": "tconstruct:traits",
+    "hooks": [ "tconstruct:rebalanced_trait" ],
+    "traits": [{ "name": "tconstruct:cultivated", "level": 2 }]
   }
 ]}

@@ -4,7 +4,8 @@
     "parts": [
       "tconstruct:round_plate",
       "tconstruct:tool_handle"
-    ]
+    ],
+    "primary_part": 0
   },
   {
     "type": "tconstruct:default_materials",
