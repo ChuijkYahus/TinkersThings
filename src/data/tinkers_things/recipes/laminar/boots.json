@@ -4,5 +4,6 @@
     { "item": "minecraft:leather" },
     { "item": "minecraft:leather" }
   ],
-  "result": "tinkers_things:laminar_boots"
+  "result": "tinkers_things:laminar_boots",
+  "slot_layout": "tinkers_things:laminar_armor"
 }
